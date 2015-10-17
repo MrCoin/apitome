@@ -1,15 +1,18 @@
-/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Base16 Atelier Heath Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
 
-/* Tomorrow Comment */
+/* Atelier-Heath Comment */
 .hljs-comment {
-  color: #8e908c;
+  color: #9e8f9e;
 }
 
-/* Tomorrow Red */
+/* Atelier-Heath Red */
 .hljs-variable,
 .hljs-attribute,
 .hljs-tag,
 .hljs-regexp,
+.hljs-name,
 .ruby .hljs-constant,
 .xml .hljs-tag .hljs-title,
 .xml .hljs-pi,
@@ -18,44 +21,42 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #c82829;
+  color: #ca402b;
 }
 
-/* Tomorrow Orange */
+/* Atelier-Heath Orange */
 .hljs-number,
 .hljs-preprocessor,
-.hljs-pragma,
 .hljs-built_in,
 .hljs-literal,
 .hljs-params,
 .hljs-constant {
-  color: #f5871f;
+  color: #a65926;
 }
 
-/* Tomorrow Yellow */
+/* Atelier-Heath Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rule .hljs-attribute {
-  color: #eab700;
+  color: #bb8a35;
 }
 
-/* Tomorrow Green */
+/* Atelier-Heath Green */
 .hljs-string,
 .hljs-value,
 .hljs-inheritance,
 .hljs-header,
-.hljs-name,
 .ruby .hljs-symbol,
 .xml .hljs-cdata {
-  color: #718c00;
+  color: #918b3b;
 }
 
-/* Tomorrow Aqua */
+/* Atelier-Heath Aqua */
 .hljs-title,
 .css .hljs-hexcolor {
-  color: #3e999f;
+  color: #159393;
 }
 
-/* Tomorrow Blue */
+/* Atelier-Heath Blue */
 .hljs-function,
 .python .hljs-decorator,
 .python .hljs-title,
@@ -64,20 +65,20 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #4271ae;
+  color: #516aec;
 }
 
-/* Tomorrow Purple */
+/* Atelier-Heath Purple */
 .hljs-keyword,
 .javascript .hljs-function {
-  color: #8959a8;
+  color: #7b59c0;
 }
 
 .hljs {
   display: block;
   overflow-x: auto;
-  background: white;
-  color: #4d4d4c;
+  background: #1b181b;
+  color: #ab9bab;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }

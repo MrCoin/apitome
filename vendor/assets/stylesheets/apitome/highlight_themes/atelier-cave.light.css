@@ -1,15 +1,18 @@
-/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Base16 Atelier Cave Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
 
-/* Tomorrow Comment */
+/* Atelier-Cave Comment */
 .hljs-comment {
-  color: #8e908c;
+  color: #655f6d;
 }
 
-/* Tomorrow Red */
+/* Atelier-Cave Red */
 .hljs-variable,
 .hljs-attribute,
 .hljs-tag,
 .hljs-regexp,
+.hljs-name,
 .ruby .hljs-constant,
 .xml .hljs-tag .hljs-title,
 .xml .hljs-pi,
@@ -18,44 +21,42 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #c82829;
+  color: #be4678;
 }
 
-/* Tomorrow Orange */
+/* Atelier-Cave Orange */
 .hljs-number,
 .hljs-preprocessor,
-.hljs-pragma,
 .hljs-built_in,
 .hljs-literal,
 .hljs-params,
 .hljs-constant {
-  color: #f5871f;
+  color: #aa573c;
 }
 
-/* Tomorrow Yellow */
+/* Atelier-Cave Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rule .hljs-attribute {
-  color: #eab700;
+  color: #a06e3b;
 }
 
-/* Tomorrow Green */
+/* Atelier-Cave Green */
 .hljs-string,
 .hljs-value,
 .hljs-inheritance,
 .hljs-header,
-.hljs-name,
 .ruby .hljs-symbol,
 .xml .hljs-cdata {
-  color: #718c00;
+  color: #2a9292;
 }
 
-/* Tomorrow Aqua */
+/* Atelier-Cave Aqua */
 .hljs-title,
 .css .hljs-hexcolor {
-  color: #3e999f;
+  color: #398bc6;
 }
 
-/* Tomorrow Blue */
+/* Atelier-Cave Blue */
 .hljs-function,
 .python .hljs-decorator,
 .python .hljs-title,
@@ -64,20 +65,39 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #4271ae;
+  color: #576ddb;
 }
 
-/* Tomorrow Purple */
+/* Atelier-Cave Purple */
 .hljs-keyword,
 .javascript .hljs-function {
-  color: #8959a8;
+  color: #955ae7;
+}
+
+.diff .hljs-deletion,
+.diff .hljs-addition {
+  color: #19171c;
+  display: inline-block;
+  width: 100%;
+}
+
+.diff .hljs-deletion {
+  background-color: #be4678;
+}
+
+.diff .hljs-addition {
+  background-color: #2a9292;
+}
+
+.diff .hljs-change {
+  color: #576ddb;
 }
 
 .hljs {
   display: block;
   overflow-x: auto;
-  background: white;
-  color: #4d4d4c;
+  background: #efecf4;
+  color: #585260;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }
