@@ -1,15 +1,18 @@
-/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Base16 Atelier Dune Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
 
-/* Tomorrow Comment */
+/* Atelier-Dune Comment */
 .hljs-comment {
-  color: #8e908c;
+  color: #7d7a68;
 }
 
-/* Tomorrow Red */
+/* Atelier-Dune Red */
 .hljs-variable,
 .hljs-attribute,
 .hljs-tag,
 .hljs-regexp,
+.hljs-name,
 .ruby .hljs-constant,
 .xml .hljs-tag .hljs-title,
 .xml .hljs-pi,
@@ -18,44 +21,42 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #c82829;
+  color: #d73737;
 }
 
-/* Tomorrow Orange */
+/* Atelier-Dune Orange */
 .hljs-number,
 .hljs-preprocessor,
-.hljs-pragma,
 .hljs-built_in,
 .hljs-literal,
 .hljs-params,
 .hljs-constant {
-  color: #f5871f;
+  color: #b65611;
 }
 
-/* Tomorrow Yellow */
+/* Atelier-Dune Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rule .hljs-attribute {
-  color: #eab700;
+  color: #ae9513;
 }
 
-/* Tomorrow Green */
+/* Atelier-Dune Green */
 .hljs-string,
 .hljs-value,
 .hljs-inheritance,
 .hljs-header,
-.hljs-name,
 .ruby .hljs-symbol,
 .xml .hljs-cdata {
-  color: #718c00;
+  color: #60ac39;
 }
 
-/* Tomorrow Aqua */
+/* Atelier-Dune Aqua */
 .hljs-title,
 .css .hljs-hexcolor {
-  color: #3e999f;
+  color: #1fad83;
 }
 
-/* Tomorrow Blue */
+/* Atelier-Dune Blue */
 .hljs-function,
 .python .hljs-decorator,
 .python .hljs-title,
@@ -64,20 +65,20 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #4271ae;
+  color: #6684e1;
 }
 
-/* Tomorrow Purple */
+/* Atelier-Dune Purple */
 .hljs-keyword,
 .javascript .hljs-function {
-  color: #8959a8;
+  color: #b854d4;
 }
 
 .hljs {
   display: block;
   overflow-x: auto;
-  background: white;
-  color: #4d4d4c;
+  background: #fefbec;
+  color: #6e6b5e;
   padding: 0.5em;
   -webkit-text-size-adjust: none;
 }
